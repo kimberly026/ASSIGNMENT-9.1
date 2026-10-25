@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>My Dashboard</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container" id="home">
+        <section class="welcome">
+            <h2>Welcome to My Dashboard</h2>
+            <p>
+                This responsive webpage adjusts its layout for mobile,
+                tablet, and desktop screens.
+            </p>
+        </section>
+
+        <section class="dashboard">
+            <article class="card">
+                <div class="icon">📊</div>
+                <h3>Total Visitors</h3>
+                <p class="number">1,250</p>
+                <p>Visitors this month</p>
+            </article>
+
+            <article class="card">
+                <div class="icon">👥</div>
+                <h3>New Users</h3>
+                <p class="number">320</p>
+                <p>Users registered</p>
+            </article>
+
+            <article class="card">
+                <div class="icon">💰</div>
+                <h3>Total Revenue</h3>
+                <p class="number">$5,400</p>
+                <p>Revenue this month</p>
+            </article>
+
+            <article class="card">
+                <div class="icon">📈</div>
+                <h3>Growth Rate</h3>
+                <p class="number">18%</p>
+                <p>Growth this month</p>
+            </article>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2>Photo Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="photo photo-one">
+                    <span>Nature</span>
+                </div>
+                <div class="photo photo-two">
+                    <span>Mountains</span>
+                </div>
+                <div class="photo photo-three">
+                    <span>Ocean</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About This Project</h2>
+            <p>
+                This project demonstrates mobile-first design using
+                CSS Flexbox, CSS Grid, and media queries. The layout
+                changes according to the width of the screen.
+            </p>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Responsive Dashboard | Assignment 9.1</p>
+    </footer>
+
+</body>
+</html>
